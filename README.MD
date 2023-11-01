@@ -3,7 +3,8 @@
 
 # SET UP & CONFIG DEBIAN
 
-[1. Install & config zsh]()
+[1. Install & config zsh](zsh_shel_config.md)
+
 [2. Install jetbrain-toolbox](jetbrain_toolbox_config.md)
 
 [3. Instal Postman](postman_config.md)
