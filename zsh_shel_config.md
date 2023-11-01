@@ -1,7 +1,5 @@
 # Oh my zsh.
 
-<p algin="center"><b>Config all things to make your zsh shell powerfull !</b></p>
-
 <p align="center"><img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh"></p>
 
 ## Install ZSH.
@@ -20,26 +18,29 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ## Install plugins.
 
-- autosuggesions plugin
+**autosuggesions plugin**
 
-  ```bash
+```bash
   git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-  ```
-- zsh-syntax-highlighting plugin
+```
 
-  ```bash
+**zsh-syntax-highlighting plugin**
+
+```bash
   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-  ```
-- zsh-fast-syntax-highlighting plugin
+```
 
-  ```bash
+**zsh-fast-syntax-highlighting plugin**
+
+```bash
   git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
-  ```
-- zsh-autocomplete plugin
+```
 
-  ```bash
+**zsh-autocomplete plugin**
+
+```bash
   git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
-  ```
+```
 
 ## Enable plugins by adding them to .zshrc
 
