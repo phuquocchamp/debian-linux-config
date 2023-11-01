@@ -2,21 +2,21 @@
 
 <p align="center"><img src="https://s3.amazonaws.com/ohmyzsh/oh-my-zsh-logo.png" alt="Oh My Zsh"></p>
 
-## Install ZSH.
+## Cài đặt ZSH.
 
 ```bash
 sudo apt install zsh
 ```
 
-> Note : Install zsh fisrt
+> Phải cài đăt zsh trước khi cài framework ohmyzsh.
 
-## Install Oh my ZSH.
+## Cài đặt Oh my ZSH.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-## Install plugins.
+## Cài đặt plugins.
 
 **autosuggesions plugin**
 
@@ -42,21 +42,21 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
   git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 ```
 
-## Enable plugins by adding them to .zshrc
+## Thêm các plugin vào file config của zsh --> .zshrc
 
-**1. Open .zshrc**
+**1. Mở .zshrc**
 
 ```bash
   nvim ~/.zshrc
 ```
 
-**2. Find the line which says**
+**2. Tìm đến dòng bắt đầu bằng**
 
 ```bash
   plugins=(git)
 ```
 
-**3. Replace that line with**
+**3.Thay thế dòng trên bằng dòng dưới đây**
 
 ```bash
   plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
