@@ -25,3 +25,27 @@ git init --bare <name_repo>
 ```
 
 Kho lưu trữ "bare" thường được sử dụng trên máy chủ từ xa, nơi mà mọi người có thể đẩy (push) và kéo (pull) từ đó mà không làm việc trực tiếp trong thư mục `.git`. Kho lưu trữ "bare" không có một thư mục làm việc để chứa các tệp làm việc thông thường, và nó chỉ chứa các đối tượng Git, refs và các thông tin liên quan đến lịch sử commit.
+
+#### git status
+
+Lệnh git status dùng để kiểm tra trạng thái của các file, thư mục trong working area và staging area
+
+```bash
+git status
+```
+
+#### git add
+
+Thêm thay đổi từ working area sang staging area
+
+Thêm một tập tin cụ thể.
+
+```bash
+git add [file]
+```
+
+Thêm tất cả thay đổi trong working area.
+
+```bash
+git add .
+```
